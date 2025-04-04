@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+  @keyframes fade{
+    from{
+      opacity:0.4;
+    }
+    to{
+      opacity:1;
+    }
+  }
+  
+
+  
+  #slider{
+    margin:0 auto;
+    width:95%;
+    overflow:hidden;
+  }
+  
+  .slides{
+    overflow:hidden;
+    animation-name:fade;
+    animation-duration:1s;
+    display:none;
+  }
+  
+  img{
+    width:100%;
+  }
+  
+  #dot{
+    margin:0 auto;
+    text-align:center;
+  }
+  .dot{
+    display:inline-block;
+    border-radius:50%;
+    background:#d3d3d3;
+    padding:8px;
+    margin:10px 5px;
+  }
+  
+  .active{
+    background:black;
+  }
+  
+  @media (max-width:567px){
+    #slider{
+      width:100%;
+  
+    }
+  }
+  
+  #heading{
+    display:block;
+    text-align:center;
+    font-size:2em;
+    margin:10px 0px;
+  
+  }
+
+
+  
+#faq{
+  background-color: rgb(19, 18, 18);
+}
+  .text-primary {
+    color: #00E594;
+  }
+  .text-dark-100 {
+    color: #F1F1F1
+  }
+  .text-dark-50 {
+    color: white;
+  }
+  .border-dark-900 {
+    border-color: #222;
+  }
+  
+  .prices-li:before {
+    content:url('https://uimand.top/img/check-icon.svg');
+    padding-top: 6px;
+  }
+  
+  
+  .title::before {
+    content:url('https://uimand.top/img/arrow-icon.svg');
+    position: absolute;
+    right: 20px;
+  
+    transition: all 0.2s;
+  }
+  
+  .content {
+    max-height: 0;
+    transition: max-height 0.2s;
+  }
+  
+  .toggle:checked + .title + .content {
+    max-height: 500px;
+  }
+  .toggle:checked + .title::before {
+    transform: rotate(180deg) !important;
+  }
+  
+  
