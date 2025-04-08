@@ -110,4 +110,19 @@
     transform: rotate(180deg) !important;
   }
   
-  
+   #right{
+   height: 80vh;
+   width: 360px;
+   background: url(assets/haldiram.jpg);
+   background-position: center;
+   background-size: cover;
+  }
+
+
+  @media (max-width:1081px) {
+    #right{
+      height: 40vh;
+      width:100%;
+      padding: 0px 20px;
+     }
+  }
