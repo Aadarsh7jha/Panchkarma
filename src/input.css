@@ -136,3 +136,13 @@ html {
 
 
   
+
+  @media (max-width:375px) {
+    #home div{
+      padding: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     }
+  }
+
