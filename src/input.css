@@ -76,7 +76,7 @@ html {
   background-color: rgb(19, 18, 18);
 }
   .text-primary {
-    color: #00E594;
+    color: rgb(255, 140, 0);
   }
   .text-dark-100 {
     color: #F1F1F1
@@ -93,6 +93,9 @@ html {
     padding-top: 6px;
   }
   
+  .green{
+    background-color: #7eb033;
+  }
   
   .title::before {
     content:url('https://uimand.top/img/arrow-icon.svg');
@@ -130,3 +133,6 @@ html {
       padding: 0px 20px;
      }
   }
+
+
+  
