@@ -787,6 +787,10 @@ video {
   margin-top: 25px;
 }
 
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -933,6 +937,10 @@ video {
 
 .list-none {
   list-style-type: none;
+}
+
+.grid-flow-row-dense {
+  grid-auto-flow: row dense;
 }
 
 .grid-cols-1 {
@@ -1343,6 +1351,11 @@ video {
   padding-right: 1x;
 }
 
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .pb-6 {
   padding-bottom: 1.5rem;
 }
@@ -1460,6 +1473,15 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-\[15px\] {
+  font-size: 15px;
 }
 
 .font-bold {
@@ -1607,6 +1629,11 @@ video {
 .text-yellow-700 {
   --tw-text-opacity: 1;
   color: rgb(161 98 7 / var(--tw-text-opacity, 1));
+}
+
+.text-emerald-50 {
+  --tw-text-opacity: 1;
+  color: rgb(236 253 245 / var(--tw-text-opacity, 1));
 }
 
 .underline {
@@ -2115,6 +2142,16 @@ img{
     padding-bottom: 30px;
   }
 
+  .md\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .md\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
   .md\:pb-0 {
     padding-bottom: 0px;
   }
@@ -2151,6 +2188,16 @@ img{
 
   .md\:text-\[45px\] {
     font-size: 45px;
+  }
+
+  .md\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .md\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 
   .md\:text-white {
@@ -2317,6 +2364,16 @@ img{
   .xl\:px-5 {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
+  }
+
+  .xl\:px-\[\] {
+    padding-left: ;
+    padding-right: ;
+  }
+
+  .xl\:px-\[70px\] {
+    padding-left: 70px;
+    padding-right: 70px;
   }
 
   .xl\:pr-20 {
