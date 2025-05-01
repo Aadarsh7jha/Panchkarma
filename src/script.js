@@ -67,3 +67,7 @@ tabTogglers.forEach(function(toggler) {
 
 
 
+element.scrollIntoView({ behavior: 'smooth' });
+
+
+

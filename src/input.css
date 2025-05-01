@@ -2,14 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
+html, body {
   scroll-behavior: smooth;
 }
+
+
+
 
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
+    scroll-behavior: smooth;
   }
   @keyframes fade{
     from{
@@ -25,11 +29,11 @@ html {
   #slider{
     margin:0 auto;
     width:95%;
-    overflow:hidden;
+   
   }
   
   .slides{
-    overflow:hidden;
+    
     animation-name:fade;
     animation-duration:1s;
     display:none;
