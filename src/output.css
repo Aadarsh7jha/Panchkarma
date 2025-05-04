@@ -592,6 +592,10 @@ video {
   visibility: visible;
 }
 
+.invisible {
+  visibility: hidden;
+}
+
 .static {
   position: static;
 }
@@ -1398,6 +1402,10 @@ video {
   padding-top: 1.75rem;
 }
 
+.pr-\[50px\] {
+  padding-right: 50px;
+}
+
 .text-left {
   text-align: left;
 }
@@ -1409,6 +1417,11 @@ video {
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .text-4xl {
@@ -1478,15 +1491,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-\[10px\] {
-  font-size: 10px;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
 }
 
 .font-bold {
@@ -1629,10 +1633,6 @@ video {
 .text-yellow-700 {
   --tw-text-opacity: 1;
   color: rgb(161 98 7 / var(--tw-text-opacity, 1));
-}
-
-.text-\[\] {
-  color: ;
 }
 
 .underline {
@@ -1843,6 +1843,12 @@ img{
   }
 }
 
+@media (max-width:4000px) {
+  html, body {
+    scroll-behavior: smooth;
+  }
+}
+
 .hover\:bg-gray-200:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity, 1));
@@ -1874,6 +1880,10 @@ img{
 }
 
 @media (min-width: 640px) {
+  .sm\:invisible {
+    visibility: hidden;
+  }
+
   .sm\:-mx-3 {
     margin-left: -0.75rem;
     margin-right: -0.75rem;
@@ -1881,6 +1891,14 @@ img{
 
   .sm\:mb-0 {
     margin-bottom: 0px;
+  }
+
+  .sm\:block {
+    display: block;
+  }
+
+  .sm\:inline-block {
+    display: inline-block;
   }
 
   .sm\:flex {
@@ -1914,19 +1932,9 @@ img{
     padding-right: 1.25rem;
   }
 
-  .sm\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
-  }
-
   .sm\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
-  }
-
-  .sm\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
   }
 }
 
@@ -2218,16 +2226,6 @@ img{
     line-height: 1.75rem;
   }
 
-  .md\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
-  .md\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-
   .md\:text-white {
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity, 1));
@@ -2381,11 +2379,6 @@ img{
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
-
-  .lg\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-  }
 }
 
 @media (min-width: 1280px) {
@@ -2418,11 +2411,6 @@ img{
 
   .xl\:text-6xl {
     font-size: 3.75rem;
-    line-height: 1;
-  }
-
-  .xl\:text-5xl {
-    font-size: 3rem;
     line-height: 1;
   }
 }
