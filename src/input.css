@@ -138,17 +138,21 @@ html, body {
      }
   }
 
-  @media (max-width:4000px) {
 
-    html, body {
-      scroll-behavior: smooth;
-    }
-    
-    
+
+  html {
+    scroll-behavior: smooth;
   }
 
 
-  
+
+  .yy{
+    font-family: Baskerville Old Face;
+  }
+
+  .mm{
+    font-family: Bodoni MT;
+  }
  
 
 

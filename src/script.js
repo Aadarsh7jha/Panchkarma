@@ -64,10 +64,3 @@ tabTogglers.forEach(function(toggler) {
     e.target.parentElement.classList.add("border-t", "border-r", "border-l", "-mb-px", "bg-white", );
   });
 });
-
-
-
-element.scrollIntoView({ behavior: 'smooth' });
-
-
-
